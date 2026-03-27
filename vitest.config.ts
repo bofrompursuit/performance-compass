@@ -3,8 +3,7 @@ import react from "@vitejs/plugin-react-swc";
 import path from "path";
 
 export default defineConfig({
-  export default defineConfig({
-  base: '/performance-compass/', // <--- Add this line exactly
+  base: '/performance-compass/', //
   plugins: [react()],
   // ... keep other existing settings
 })
